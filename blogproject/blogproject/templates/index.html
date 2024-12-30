@@ -130,6 +130,9 @@
         </div>
       </section>
       <!-- /Hero Section -->
+      {% block content %}
+       {% placeholder "content" %}
+      {% endblock content %}
 
       <!-- Featured Services Section -->
       <section id="featured-services" class="featured-services section">
@@ -144,8 +147,9 @@
                 <div class="icon"><i class="bi bi-activity icon"></i></div>
                 <h4><a href="" class="stretched-link">Lorem Ipsum</a></h4>
                 <p>
-                  Voluptatum deleniti atque corrupti quos dolores et quas
-                  molestias excepturi
+                  {% block content1 %}
+                    {% placeholder "content1" %}
+                  {% endblock content1 %}
                 </p>
               </div>
             </div>
@@ -162,8 +166,9 @@
                 </div>
                 <h4><a href="" class="stretched-link">Sed ut perspici</a></h4>
                 <p>
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore
+                  {% block content2 %}
+                    {% placeholder "content2" %}
+                  {% endblock content2 %}
                 </p>
               </div>
             </div>
@@ -180,8 +185,9 @@
                 </div>
                 <h4><a href="" class="stretched-link">Magni Dolores</a></h4>
                 <p>
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia
+                  {% block content3 %}
+                    {% placeholder "content3" %}
+                  {% endblock content3 %}
                 </p>
               </div>
             </div>
@@ -196,8 +202,9 @@
                 <div class="icon"><i class="bi bi-broadcast icon"></i></div>
                 <h4><a href="" class="stretched-link">Nemo Enim</a></h4>
                 <p>
-                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                  blanditiis
+                  {% block content4 %}
+                    {% placeholder "content4" %}
+                  {% endblock content4 %}
                 </p>
               </div>
             </div>
